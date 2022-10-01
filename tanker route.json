@@ -1,0 +1,1588 @@
+{
+     "triggers": [
+          {
+               "type": "unitEntersRegion"
+          }
+     ],
+     "conditions": [
+          {
+               "operator": "==",
+               "operandType": "boolean"
+          },
+          true,
+          true
+     ],
+     "actions": [
+          {
+               "type": "condition",
+               "conditions": [
+                    {
+                         "operandType": "unit",
+                         "operator": "=="
+                    },
+                    {
+                         "function": "getTriggeringUnit"
+                    },
+                    {
+                         "function": "getVariable",
+                         "variableName": "tanker"
+                    }
+               ],
+               "then": [
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "1"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "2"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "2"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "3"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "3"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "4"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "4"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "5"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "5"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "6"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "6"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "7"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "7"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "8"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "8"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "9"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "9"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "10"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "10"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "11"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "11"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "12"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "12"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "13"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "13"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "14"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "14"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "15"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "15"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "16"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "16"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "17"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "17"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "18"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "18"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "19"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "19"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "20"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "20"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "21"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "21"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "22"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "22"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "23"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "23"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "24"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "24"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "25"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "25"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "26"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "26"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "27"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "27"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "28"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "28"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "29"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "29"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "30"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "30"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "31"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "31"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "32"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "32"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "33"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "33"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "34"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "34"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "35"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "35"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "36"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "36"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "37"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "37"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "38"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "38"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "39"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "39"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "40"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "40"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "41"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "41"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "42"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "42"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "43"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    },
+                    {
+                         "type": "condition",
+                         "conditions": [
+                              {
+                                   "operandType": "region",
+                                   "operator": "=="
+                              },
+                              {
+                                   "function": "getTriggeringRegion"
+                              },
+                              {
+                                   "function": "getVariable",
+                                   "variableName": "43"
+                              }
+                         ],
+                         "then": [
+                              {
+                                   "type": "aiMoveToPosition",
+                                   "unit": {
+                                        "function": "getVariable",
+                                        "variableName": "tanker"
+                                   },
+                                   "position": {
+                                        "function": "centerOfRegion",
+                                        "region": {
+                                             "function": "getVariable",
+                                             "variableName": "1"
+                                        }
+                                   }
+                              }
+                         ],
+                         "else": [],
+                         "isExpanded": {
+                              "self": true
+                         }
+                    }
+               ],
+               "else": []
+          }
+     ],
+     "name": "tanker command",
+     "parent": null,
+     "key": "6ek3jcO1iD",
+     "order": 13
+}
